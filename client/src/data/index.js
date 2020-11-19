@@ -1,45 +1,53 @@
+const high = "#ff0000"
+const medium = "#ff8c00"
+const low = "#ffff00"
+
 const data = [{
     id: 1,
-    icon: "⭕️",
-    status: "open",
-    title: "Human Interest Form",
-    content: "Fill out human interest distribution form"
+    status: "To-Do",
+    title: "Taskaasasasasas",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    assignedPerson: "Adam",
+    priorityColor: high,
+    startDate: "01/01/2020",
+    endDate: "01/02/2020"
 }, {
     id: 2,
-    icon: "⭕️",
-    status: "open",
-    title: "Purchase present",
-    content: "Get an anniversary gift"
+    status: "To-Do",
+    title: "Task 2",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    assignedPerson: "David",
+    priorityColor: medium,
+    startDate: "01/01/2020",
+    endDate: "01/02/2020"
 }, {
     id: 3,
-    icon: "⭕️",
-    status: "open",
-    title: "Invest in investments",
-    content: "Call the bank to talk about investments"
+    status: "To-Do",
+    title: "Task 3",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    assignedPerson: "Niraj",
+    priorityColor: low,
+    startDate: "01/01/2020",
+    endDate: "01/02/2020"
 }, {
     id: 4,
-    icon: "⭕️",
-    status: "open",
-    title: "Daily reading",
-    content: "Finish reading Intro to UI/UX"
+    status: "To-Do",
+    title: "Task 4",
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    assignedPerson: "Tracy",
+    priorityColor: high,
+    startDate: "01/01/2020",
+    endDate: "01/02/2020"
 }];
 
 const statuses = [{
-    status: "open",
-    icon: "⭕️",
-    color: "#EB5A46"
+    status: "To-Do",
 }, {
-    status: "in progress",
-    icon: "🔆️",
-    color: "#00C2E0"
+    status: "Doing",
 }, {
-    status: "in review",
-    icon: "📝",
-    color: "#C377E0"
+    status: "Done",
 }, {
-    status: "done",
-    icon: "✅",
-    color: "#3981DE"
+    status: "Archive",
 }];
 
 

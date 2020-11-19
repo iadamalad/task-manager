@@ -26,7 +26,7 @@ const Homepage = () => {
             return  [ ...newItems ];
         });
     };
-
+        
     return (
         <div className={"row"}>
             {statuses.map(s => {
@@ -39,6 +39,8 @@ const Homepage = () => {
                                     .filter(i => i.status === s.status)
                                     .map((i, idx) => <Item key={i.id} item={i} index={idx} moveItem={moveItem} status={s} />)
                                 }
+                                {(s.status === "To-Do") ? <div className={"new-item"} onClick={}>Add new task</div> : <div/>}
+                                
                             </Col>
                         </DropWrapper>
                     </div>
