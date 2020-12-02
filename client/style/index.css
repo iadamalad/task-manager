@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 :root {
   --primary-color: rgb(62, 100, 255);
   --complete-color: #27aa80;
@@ -209,4 +210,27 @@ select {
 
 .new-item:hover {
   cursor: pointer;
+}
+
+.task-form {
+  display: flex;
+}
+
+.task-info {
+  display: flex;
+  justify-content: flex-start;
+}
+.item-test {
+  width: 50%;
+}
+
+hr {
+  background-color: rgb(31, 88, 0);
+  border: none;
+  height: 1px;
+}
+
+.task-info-text {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
 }
